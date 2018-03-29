@@ -1,0 +1,101 @@
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-color: #000000;   */
+}
+
+/* Delicious Burgers & Devoured Burgers 
+   panel headers */
+.panel-heading {
+    /* background-color: #ed4a47 !important; */
+    background-color: #ee101a !important;
+    border-color: black !important;
+    border-radius: 2px;
+    color: white !important;
+    text-shadow: 1px 2px black;
+}
+
+/* Delicious Burgers & Devoured Burgers 
+   panel bodies */
+.panel {
+    /* background-color: #e5b8b7; */
+    border-color: black;
+}
+
+/* 'EAT DA BURGER' */
+h1 {
+  text-align: center;
+  font-size: 75px;
+  font-family: Chalkduster, fantasy;
+}
+
+/* 'Add A Burger' */
+h2 {
+  text-align: center;
+  font-family: Chalkduster, fantasy;
+}
+
+/* Text within both panels */
+div,
+body {
+  font-family: Arial Narrow, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: black;
+}
+
+p {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+/* Create a new burger text, text box & Submit button */
+.center {
+  text-align: center;
+}
+
+/* Submit Button */
+.btn-primary {
+  border-radius: 2px;
+  color: black;
+  background-color: #ed4a47;
+  border-color: black;
+}
+
+/* Submit Button */
+#submitBtn {
+    /* background-color:#8fd820; */
+    background-color: #ee101a;
+    border-color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+/* Devour! and Devoured! Buttons */
+.btn-default {
+    background-color: #FFE600;
+    /* border-color: black; */
+    border-radius: 5px;
+    margin-left: 15px;
+    border-color: black;
+    color: black;
+    font-size: 12px;
+ 
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  background-color: black;
+}
+.copyright {
+    color: white;
+    font-size: 11px;
+    margin-top: 6px;
+    
+}

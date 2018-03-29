@@ -1,0 +1,29 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "HW Assignment - Week 14",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackiepajor/burger.git"
+  },
+  "author": "Jackie Pajor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackiepajor/burger/issues"
+  },
+  "homepage": "https://github.com/jackiepajor/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "colors": "^1.2.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}
